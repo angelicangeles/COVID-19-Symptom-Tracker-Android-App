@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_margin="12sp">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:background="@color/purple_500">
+
+        <TextView
+            android:id="@+id/covidPrevention_description"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="If you have Covid- 19 with symptoms, or a positive test result without symptoms, you will be asked to self- isolate at home or in health care facility."
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/covidPrevention_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/covidPrevention_description"
+            android:src="@drawable/self_isolate" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/time_image"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/time"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center_horizontal"
+            android:text="It takes a minute per day"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:padding="10dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="A Complete Record of Your Symptoms"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:textColor="@color/colorAccent"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:layout_marginLeft="10dp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:text="With Covidify app, you can record your symptoms. It is an effective and organized way to routinely document the status of your health and show your complete history to a Doctor whenever needed."/>-->
+
+<!--    </LinearLayout>-->
+
+
+</androidx.cardview.widget.CardView>
